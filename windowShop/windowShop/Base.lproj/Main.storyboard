@@ -31,9 +31,12 @@
                                     <constraint firstAttribute="height" constant="60" id="dR0-WY-nQW"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe3-uY-E7e" customClass="CurrencyTextField" customModule="windowShop" customModuleProvider="target">
-                                <rect key="frame" x="77" y="140" width="220" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qe3-uY-E7e" customClass="CurrencyTextField" customModule="windowShop" customModuleProvider="target">
+                                <rect key="frame" x="62" y="140" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Oh-p8-P4t"/>
+                                    <constraint firstAttribute="width" constant="250" id="vPK-6B-sLo"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -43,7 +46,9 @@
                         <constraints>
                             <constraint firstItem="cxF-wn-vKF" firstAttribute="top" secondItem="R3U-Zb-Hsn" secondAttribute="bottom" constant="35" id="Fan-yU-geZ"/>
                             <constraint firstItem="cxF-wn-vKF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L8b-Nv-z5E"/>
+                            <constraint firstItem="qe3-uY-E7e" firstAttribute="top" secondItem="cxF-wn-vKF" secondAttribute="bottom" constant="25" id="Wzz-ok-ML3"/>
                             <constraint firstAttribute="trailing" secondItem="t1f-M3-oXr" secondAttribute="trailing" id="hGt-uD-Th0"/>
+                            <constraint firstItem="qe3-uY-E7e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hZS-Ah-10S"/>
                             <constraint firstItem="t1f-M3-oXr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jCS-oZ-e4M"/>
                             <constraint firstItem="t1f-M3-oXr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="k7b-0k-Gur"/>
                             <constraint firstItem="ZrR-jl-sbx" firstAttribute="top" secondItem="t1f-M3-oXr" secondAttribute="bottom" id="sEW-8u-Bqi"/>

@@ -26,7 +26,7 @@ class CurrencyTextField: UITextField {
     }
 }
         
-        
+
 //        if placeholder == nil {
 //            placeholder = " "
 //        }
