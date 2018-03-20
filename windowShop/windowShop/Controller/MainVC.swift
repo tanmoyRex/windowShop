@@ -25,6 +25,7 @@ class MainVC: UIViewController {
         calcBtn.setTitleColor(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0), for: .normal)
         calcBtn.addTarget(self, action: #selector(MainVC.calculate), for: .touchUpInside)
 //        calcBtn.titleLabel?.text = "calculate"   <<<------ this does not work for button but works for lebel
+        
         wageTxt.inputAccessoryView = calcBtn
         priceTxt.inputAccessoryView = calcBtn
         
